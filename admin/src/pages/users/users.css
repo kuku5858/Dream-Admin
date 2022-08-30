@@ -1,0 +1,26 @@
+.users__container {
+    flex: 4;
+}
+
+.users__icons {
+    margin: 0 0.75rem;
+    cursor: pointer;
+    font-size: 1.3rem !important;
+}
+
+.delete:hover {
+    font-size: 1.6rem;
+}
+
+.delete {
+    color: brown !important; 
+}
+
+.edit:hover {
+    font-size: 1.6rem;
+}
+
+.edit {
+    color: #6bb36b !important;
+    margin-top: 0.5rem;
+}

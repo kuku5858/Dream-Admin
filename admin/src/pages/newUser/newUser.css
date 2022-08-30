@@ -1,0 +1,43 @@
+.newuser__container {
+    flex: 4;
+    margin: 1.25rem;
+}
+
+.newuser__form {
+    margin: 1rem 0;
+}
+
+.newuser__items {
+    display: flex;
+    flex-direction: column;
+    color:rgb(71, 71, 71);
+    margin: 0.5rem 0 0 0;
+}
+
+.newuser__items>input {
+    width: 55%;
+    padding: 0.5rem 0.25rem;
+    font-size: 0.9rem;
+    border: 1px solid rgb(207, 205, 205);
+    margin-top: 0.25rem;
+    background: transparent;
+    color: gray;
+    font-weight: 200;
+}
+
+.newuser__items>input:active {
+    border: none;
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.newuser__btn {
+    font-size: 1rem;
+    font-weight: 600;   
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffbf;
+    color: #7d7d00;
+    border: 0.5px solid #7d7d00;
+    margin: 0.75rem 0 0 0;
+}

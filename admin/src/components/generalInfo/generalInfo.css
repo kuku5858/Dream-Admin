@@ -1,0 +1,49 @@
+.generalinfo__conatainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.generalinfo__items {
+  flex: 1;
+  margin: 0 1.5rem;
+  padding: 1.8rem;
+  border-radius: 0.6205rem;
+  -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+.generalinfo__title {
+    font-size: 1.4rem;
+}
+
+.money__container {
+    margin: 0.6205rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.money {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.rate {
+    display: flex;
+    align-items: center;
+    margin-left: 1.25rem;
+}
+
+.general__icons {
+    font-size: 0.9rem;
+    color: green;
+}
+
+.general__icons.down {
+    color: brown;
+}
+
+.general__info {
+    color: rgb(81, 81, 81);
+}

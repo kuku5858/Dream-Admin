@@ -1,0 +1,37 @@
+.adimnlogin__container {   
+    flex: 4; 
+    margin: 1.25rem;
+}
+
+
+.admin__form {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.admin__form input {
+    width: 80%  ;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-gold);
+    color: var(--color-primary-profile);
+    resize: none;
+    font-size: 1rem;
+    margin: 0.25rem 0;
+}
+
+.notice > small {
+    color: gray;
+}
+
+.notice::before {
+    content: "*"; 
+    width: 1px;
+    color: red;
+}
+
+.btn {
+    margin: 0.25rem 0 0.5rem 0;
+}

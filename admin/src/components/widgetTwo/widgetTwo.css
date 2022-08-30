@@ -1,0 +1,62 @@
+.widgettwo__container {
+  flex: 2;
+  padding: 1.8rem;
+  border-radius: 0.6205rem;
+  -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+.widgettwo__title {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.wt__table {
+    width: 100%;
+    border-spacing: 1.25rem;
+}
+.wt__th {
+    text-align: left;
+}
+
+.wt__td {
+    display: flex;
+    align-items: center;
+}
+
+.wtuser__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+
+.wtuser__name {
+    font-weight: 600;
+}
+
+.wt__date,.wt__amount {
+    font-weight: 300;
+}
+
+.wt__btn {
+    border: none;
+    border-radius: 0.6205rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.Pending {
+    background-color: #c2c2ff;
+    color: #6918b4;
+}
+
+.Declined {
+    background-color: #ffb3bf;
+    color: #ff4d4d;
+}
+
+.Success {
+    background-color: #c2ffc2;
+    color: #81b336;
+}

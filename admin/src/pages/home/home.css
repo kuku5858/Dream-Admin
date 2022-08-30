@@ -1,0 +1,19 @@
+.home__container {
+    flex: 4;
+}
+.home__chart{
+    margin: 1.5rem;
+}
+.home__widgets {
+    margin: 1.25rem;
+    display: flex;
+}
+
+/* ================= Media Queries (Medium Devices) ===================*/
+
+@media screen and (max-width: 1024px) {
+    .home__container {
+      flex: 3 !important;
+    }
+  }
+  

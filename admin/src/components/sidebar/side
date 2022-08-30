@@ -1,0 +1,46 @@
+import InsightsIcon from "@mui/icons-material/Insights";
+import TrendingUpIcon from "@mui/icons-material/TrendingUp";
+import ListAltIcon from "@mui/icons-material/ListAlt";
+import AssessmentIcon from "@mui/icons-material/Assessment";
+import MailIcon from "@mui/icons-material/Mail";
+import InfoIcon from "@mui/icons-material/Info";
+
+<div className="sidebar__menu">
+          <h3 className="sidebar__title">Service</h3>
+          <ul className="sidebar__ul">
+          <li className="sidebar__list">
+              <InsightsIcon className="sidebar__icons" />
+              Analytics
+            </li>
+            <li className="sidebar__list">
+              <TrendingUpIcon className="sidebar__icons" />
+              Sales
+            </li>
+            <Link to={"/todo"} className="link">
+              <li className="sidebar__list">
+                <ListAltIcon className="sidebar__icons" />
+                To-do list
+              </li>
+            </Link>
+            <Link to={"/reports"} className="link">
+              <li className="sidebar__list">
+                <AssessmentIcon className="sidebar__icons" />
+                Reports
+              </li>
+            </Link>
+          </ul>
+        </div>
+
+        <div className="sidebar__menu">
+          <h3 className="sidebar__title">Notification</h3>
+          <ul className="sidebar__ul">
+            <li className="sidebar__list">
+              <MailIcon className="sidebar__icons" />
+              Mail
+            </li>
+            <li className="sidebar__list">
+              <InfoIcon className="sidebar__icons" />
+              Help
+            </li>
+          </ul>
+        </div>

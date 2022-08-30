@@ -1,0 +1,84 @@
+:root {
+  --color-baige-variant: #efebe2;
+  --color-baige: #e7e6e3;
+  --color-gold: #e2c138;
+  --color-primary-profile: #002230;
+  --color-green-collection: #203a2d;
+  --color-green-contact: #0a3134;
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary-profile);
+  background-color: var(--color-baige);
+  padding: 0.75rem 2.9rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary-profile);
+  transition: var(--transition);
+}
+
+.btn:hover {
+  color: var(--color-baige-variant);
+  background-color: var(--color-primary-profile);
+}
+
+.btn-primary {
+  background: var(--color-primary-profile);
+  color: var(--color-baige);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-baige-variant);
+  color: var(--color-primary-profile);
+}
+
+.btn-secondary {
+  border-radius: 0;
+  font-weight: bold;
+  border-radius: 0.15rem;
+}
+
+.btn-secondary:hover {
+  color: var(--color-primary-profile);
+  background-color: var(--color-baige-variant);
+  font-size: 0.8rem;
+}
+
+.container {
+  display: flex;
+  margin: 0.75rem;
+}
+
+.others {
+  flex: 4;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ================= Media Queries (Medium Devices) ===================*/
+
+@media screen and (max-width: 1024px) {
+  .others {
+    flex: 3;
+  }
+}
+
+/* ================= Media Queries (Small Devices) ===================*/
+
+@media screen and (max-width: 600px) {
+
+  .others {
+    flex: 2;
+  }
+}
