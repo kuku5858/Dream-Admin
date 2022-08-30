@@ -18,7 +18,7 @@ function App() {
   // const loggedIn = JSON.parse(
   //   JSON.parse(localStorage.getItem("persist:root")).user
   // ).loggedUser;
-  const loggedIn = JSON.parse(localStorage.getItem("persist:root")).loggedUser;
+  const loggedIn = JSON.parse(localStorage.getItem("persist:root")) !== null && JSON.parse(localStorage.getItem("persist:root")).loggedUser;
   console.log(loggedIn)
 
   // const persist = JSON.parse(localStorage.getItem("persist:root")).loggedUser;
