@@ -2,13 +2,18 @@
   "name": "dream-interior",
   "version": "1.0.0",
   "description": "Web application for an interior design company",
+  "engines": {
+    "node": "16.13.0",
+    "npm": "7.8.0"
+  },
   "main": "server.js",
   "scripts": {
     "server": "nodemon",
     "admin": "npm start --prefix admin",
     "dev": "concurrently \"npm run  server\" \"npm run admin\"",
     "nodemon": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "heroku-postbuild": "cd admin && npm install && npm run build"
   },
   "author": "Bethelhem Zewge Yilma",
   "license": "ISC",
